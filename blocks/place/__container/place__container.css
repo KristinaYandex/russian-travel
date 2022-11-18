@@ -1,0 +1,14 @@
+.place__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__container {
+    margin: 32px 16px 0 16px;
+    row-gap: 25px;
+    max-width: 288px;
+  }
+}
